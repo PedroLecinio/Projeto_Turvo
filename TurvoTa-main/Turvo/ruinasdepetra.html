@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+  
+<html lang="pt-BR" dir="ltr">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Viagens, Maravilhas do mundo">
+      <meta name="keywords" content="Viagens, Maravilhas do mundo, Cristo Redentor">
+      <meta name="author" content="Pedro, Uriel e Diogo">
+      <link rel="stylesheet" href="CSS/style.css">  
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">   
+      <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="imagem/logo 2.png" type="image/x-icon">
+      <title>Ruinas de Petra</title>
+
+  </head>
+
+<body id="grad">
+
+<header>
+ 
+  <nav class="sidebar close">
+    <div class="iocn-link">
+      <div class="logo-details">
+        <i class='bx bxs-plane-alt'></i>
+        <span class="logo_name"></span>
+      </div>
+  </div>
+    <ul class="nav-links">
+      <li>
+        <div class="iocn-link">   
+          <a href="index.html">
+            <i class='bx bxs-home-alt-2' style='color:#ffffff'  ></i>
+            <span class="link_name">Inicio</span>
+          </a>
+      </div>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="index.html">Inicio</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-world' ></i>
+            <span class="link_name">Maravilhas do mundo moderno</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">7 Maravilhas do mundo moderno</a></li>
+          <li><a href="cristoredentor.html">Cristo Redentor</a></li>
+          <li><a href="macchupicchu.html">Machu Picchu</a></li>
+          <li><a href="chichenitza.html">Chichén Itzá</a></li>
+          <li><a href="coliseu.html">Coliseu</a></li>
+          <li><a href="ruinasdepetra.html">Ruínas De Petra</a></li>
+          <li><a href="tajmahal.html">Taj Mahal</a></li>
+          <li><a href="grandemuralha.html">Grande Muralha</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bxs-bank' style='color:#ffffff'  ></i>
+            <span class="link_name">Maravilhas do mundo antigo</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">7 Maravilhas do mundo antigo</a></li>
+          <li><a href="piramide.html">Grandes Pirâmides</a></li>
+          <li><a href="mausoleu.html">Mausoléu</a></li>
+          <li><a href="estatuadezeus.html">Estátua De Zeus</a></li>
+          <li><a href="jardins.html">Jardins Da Babilônia</a></li>
+          <li><a href="farol.html">Farol De Alexandria</a></li>
+          <li><a href="artemis.html">Templo De Ártemis</a></li>
+          <li><a href="colossoderodes.html">Colosso De Rodes</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+        <a href="contato.html">
+          <i class='bx bx-envelope'></i>
+          <span class="link_name">Contato</span>
+        </a>
+      </div>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="contato.html">Contato</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">Jordânia</span> 
+      <a href="index.html"><img id="icotopo" src="imagem/IMG_1534.ico"></a>
+    </div>
+    
+    <script>
+      let arrow = document.querySelectorAll(".arrow");
+      for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e)=>{
+       let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+       arrowParent.classList.toggle("showMenu");
+        });
+      }
+      let sidebar = document.querySelector(".sidebar");
+      let sidebarBtn = document.querySelector(".bx-menu");
+      console.log(sidebarBtn);
+      sidebarBtn.addEventListener("click", ()=>{
+        sidebar.classList.toggle("close");
+      });
+      </script>
+
+  </header>
+
+<main>  
+  
+  <ul class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+    <li class="breadcrumb-item2"><a href="#">/</a></li>
+    <li class="breadcrumb-item"><a href="#">Mundo moderno</a></li>
+    <li class="breadcrumb-item2"><a href="#">/</a></li>
+    <li class="breadcrumb-item"><a href="ruinasdepetra.html">Ruínas De Petra</a></li>
+  </ul>
+
+  <div class="blocoum">
+    <div class="Fundo w3-center Cor">
+        <h1 class="localizacao">Ruínas de Petra</h1>
+        <h4 class="localizacao2">Petra - Jordânia</h4>
+    </div>
+  
+    <div class="w3-row-padding blocoitens" style="max-width:1400px">
+        <div class="">
+            <img class=" imagempaginas" src="imagem/Petra.png" alt="Imagem da entrada das ruínas de Petra." style="width:70%">
+            <h2 class="paragrafopaises">História</h2>
+            <div class="justificado"><br>
+                <p class="paragrafopaises2">Petra, originalmente conhecida pelos nabateus como Raqmu, é uma cidade histórica e arqueológica localizada no sul da Jordânia. A cidade é famosa por sua arquitetura esculpida em rocha e por seu sistema de canalização de água. Outro nome para Petra é Cidade Rosa, devido à cor das pedras do local.
+
+                    Estabelecido possivelmente já em 312 a.C. como a capital dos árabes nabateus, é um símbolo jordaniano, assim como a atração turística a mais visitada do país. Os nabateus eram árabes nômades que aproveitaram a proximidade de Petra com as rotas comerciais regionais para estabelecê-la como um importante centro comercial. Os nabateus também são conhecidos por sua grande habilidade na construção de métodos eficientes de coleta de água em desertos áridos e seu talento em esculpir estruturas em rochas sólidas.</p><br>
+                
+            </div>
+        </div>
+    
+        
+        <div class="">
+          <img class="imagempaginas" src="imagem/PetraNova.png" alt="Imagem da entrada das ruínas de Petra em um ângulo próximo." style="width:70%">
+          <h2 class="paragrafopaises">Curiosidades</h2>
+          <div class="justificado">
+            <p class="paragrafopaises2">Povos Nabateus
+            </p><br>  
+            <p class="paragrafopaises2">Os nabateus eram uma tribo beduína nômade que atravessou o deserto da Arábia e assim, fundou Petra. Eles emergiram como um poder político entre os séculos 2 e 4 a.C. e começaram a construir Raqmu.
+
+                Como resultado, a cultura nabateia ganhou riqueza e estabilidade graças ao seu controle sobre uma rede comercial essencial para o mundo antigo. Por causa de seu envolvimento no comércio, eles foram expostos e influenciados por diferentes culturas do mundo mediterrâneo e árabe. Desse modo, essas influências foram incorporadas à sua religião e cultura.</p>
+          </div>
+        </div><br><br>
+      </div>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <div class="container2">
+      <div class="row">
+        <div class="footer-col">
+            <h4>7 Maravilhas do mundo moderno</h4>
+              <ul>  
+                    <li><a href="cristoredentor.html">Cristo Redentor, Brasil</a><li>
+                    <li><a href="macchupicchu.html">Machu Picchu, Peru</a><li>
+                    <li><a href="chichenitza.html">Chichén Itzá, México</a><li></li>
+                    <li><a href="coliseu.html">Coliseu, Itália</a><li></li>
+                    <li><a href="ruinasdepetra.html">Ruínas de Petra, Jordânia</a><li></li>
+                    <li><a href="tajmahal.html">Taj Mahal, Índia</a><li></li>
+                    <li><a href="grandemuralha.html">Grande Muralha da China</a><li></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+            <h4>7 Maravilhas do mundo antigo</h4>
+              <ul>  
+                    <li><a href="piramide.html">Grandes Pirâmides de Gizé</a><li>
+                    <li><a href="mausoleu.html">Mausoléu de Halicarnasso</a><li>
+                    <li><a href="estatuadezeus.html">Estátua de Zeus</a><li>
+                    <li><a href="jardins.html">Jardins da Babilônia</a><li>
+                    <li><a href="farol.html">Farol de Alexandria</a><li>
+                    <li><a href="artemis.html">Templo de Ártemis</a><li></li>
+                    <li><a href="colossoderodes.html">Colosso de Rodes</a><li></li>
+
+                    <div class="rodape"> 
+                      <p id="ufakk">Desenvolvido por Diogo, Pedro e Uriel.<br>
+                        Todos os direitos reservados &copy; 2022.</p>  
+                    </div> 
+
+              </ul>
+          </div>
+        <div class="footer-col">
+            <h4>Outros</h4>
+              <ul class="outros">  
+                    <li><a href="acessibilidade.html">Acessibilidade</a><li>
+                    <li><a href="$">A+</a><li>
+                    <li><a href="$">A-</a><li>
+                    <li><a href="$">Contraste</a><li>
+                      <div id="acessibilidade">    
+                        <ul id="atalhos">
+                          <li><a href="#grad" accesskey="1" title="Ir para o conteudo">Ir para o conteúdo [1]</a></li>
+                          <li><a href="#grad" accesskey="2" title="Ir para menu de navegação">Ir para menu [2]</a></li>
+                          <li><a href="#ufakk" accesskey="3" title="Ir para rodap[e">Ir para rodapé [3]</a></li>
+                             
+                            <div class="rodapemob Cor"> 
+                              <p id="ufakk">Desenvolvido por Diogo, Pedro e Uriel.<br>
+                                Todos os direitos reservados &copy; 2022.</p>  
+                            </div> 
+                             
+                        </ul>
+              </ul>
+          </div>       
+      </div>
+    </div>
+  </footer>
+</div>
+
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+</body>
+</html>

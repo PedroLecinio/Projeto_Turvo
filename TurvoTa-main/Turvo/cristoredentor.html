@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+  
+<html lang="pt-BR" dir="ltr">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Viagens, Maravilhas do mundo">
+      <meta name="keywords" content="Viagens, Maravilhas do mundo, Cristo Redentor">
+      <meta name="author" content="Pedro, Uriel e Diogo">
+      <link rel="stylesheet" href="CSS/style.css">  
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">   
+      <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="imagem/logo 2.png" type="image/x-icon">
+    <title>Cristo Redentor</title>
+
+  </head>
+<body id="grad">
+
+<header>
+  <nav class="sidebar close">
+    <div class="iocn-link">
+      <div class="logo-details">
+        <i class='bx bxs-plane-alt'></i>
+        <span class="logo_name"></span>
+      </div>
+  </div>
+    <ul class="nav-links">
+      <li>
+        <div class="iocn-link">   
+          <a href="index.html">
+            <i class='bx bxs-home-alt-2' style='color:#ffffff'  ></i>
+            <span class="link_name">Inicio</span>
+          </a>
+      </div>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="index.html">Inicio</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-world' ></i>
+            <span class="link_name">Maravilhas do mundo moderno</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">7 Maravilhas do mundo moderno</a></li>
+          <li><a href="cristoredentor.html">Cristo Redentor</a></li>
+          <li><a href="macchupicchu.html">Machu Picchu</a></li>
+          <li><a href="chichenitza.html">Chichén Itzá</a></li>
+          <li><a href="coliseu.html">Coliseu</a></li>
+          <li><a href="ruinasdepetra.html">Ruínas De Petra</a></li>
+          <li><a href="tajmahal.html">Taj Mahal</a></li>
+          <li><a href="grandemuralha.html">Grande Muralha</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bxs-bank' style='color:#ffffff'  ></i>
+            <span class="link_name">Maravilhas do mundo antigo</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">7 Maravilhas do mundo antigo</a></li>
+          <li><a href="piramide.html">Grande Pirâmide</a></li>
+          <li><a href="mausoleu.html">Mausoléu</a></li>
+          <li><a href="estatuadezeus.html">Estátua De Zeus</a></li>
+          <li><a href="jardins.html">Jardins Da Babilônia</a></li>
+          <li><a href="farol.html">Farol De Alexandria</a></li>
+          <li><a href="artemis.html">Templo De Ártemis</a></li>
+          <li><a href="colossoderodes.html">Colosso De Rodes</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+        <a href="contato.html">
+          <i class='bx bx-envelope'></i>
+          <span class="link_name">Contato</span>
+        </a>
+      </div>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="contato.html">Contato</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">Brasil</span> 
+      <a href="index.html"><img id="icotopo" src="imagem/IMG_1534.ico"></a>
+    </div>
+
+    <script>
+      let arrow = document.querySelectorAll(".arrow");
+      for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e)=>{
+       let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+       arrowParent.classList.toggle("showMenu");
+        });
+      }
+      let sidebar = document.querySelector(".sidebar");
+      let sidebarBtn = document.querySelector(".bx-menu");
+      console.log(sidebarBtn);
+      sidebarBtn.addEventListener("click", ()=>{
+        sidebar.classList.toggle("close");
+      });
+      </script>
+
+  </header>
+
+<main>
+  
+  <ul class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+    <li class="breadcrumb-item2"><a href="#">/</a></li>
+    <li class="breadcrumb-item"><a href="#">Mundo moderno</a></li>
+    <li class="breadcrumb-item2"><a href="#">/</a></li>
+    <li class="breadcrumb-item"><a href="cristoredentor.html">Cristo Redentor</a></li>
+  </ul>
+
+  <div class="blocoum">
+    <div class="Fundo w3-center Cor">
+        <h1 style="text-decoration: underline;" class="localizacao">Cristo Redentor</h1>
+        <h4 style="text-decoration: underline;" class="localizacao2">Rio de Janeiro Brasil</h4>
+    </div>
+  
+    <div class="w3-row-padding blocoitens" style="max-width:1400px">
+        <div class="">
+            <img class=" imagempaginas" src="imagem/cristo.png" alt="imagem à esquerda mostrando a construção do cristo. Imagem a direita do cristo já construido." style="width:70%">
+            <h2 class="paragrafopaises">História</h2>
+            <div class="justificado"><br>
+                <p class="paragrafopaises2">A ideia de construir uma grande estátua no alto do Corcovado foi sugerida pela primeira vez em meados da década de 1850, quando o padre Pedro Maria Boss sugeriu a colocação de um monumento cristão no Monte do Corcovado para homenagear a Princesa Isabel, regente do Brasil e filha do Imperador Dom Pedro II. A princesa gostou da ideia e chegou a dar apoio à construção da obra. </p><br>
+                <p class="paragrafopaises2">Símbolo do cristianismo, o Cristo Redentor também se tornou um ícone cultural do Rio de Janeiro, do Brasil e da América Latina como um todo, sendo retratado no cinema, na televisão e em músicas. O monumento é um importante ponto turístico, que recebe, em média, 2 milhões de visitantes por ano.</p><br>
+            </div>
+        </div>
+    
+        
+        <div class="">
+          <img class="imagempaginas" src="imagem/cristo2.png" alt="" style="width:70%">
+          <h2 class="paragrafopaises">Curiosidades</h2>
+          <div class="justificado">
+            <p class="paragrafopaises2">O Cristo Redentor é o principal cartão-postal do Rio de Janeiro. Inaugurado em 12 de outubro de 1931, a estátua de braços abertos para a Baía de Guanabara completou 90 anos em 2021.</p><br>  
+            <p class="paragrafopaises2"> Com 38 metros de altura (incluindo o pedestal de 8 metros) e 1.145 toneladas, a atração turística está localizada no alto do morro do Corcovado e em 2007, foi eleito informalmente como uma das 7 maravilhas do mundo moderno!</p>
+          </div>
+        </div><br><br>
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container2">
+      <div class="row">
+        <div class="footer-col">
+            <h4>7 Maravilhas do mundo moderno</h4>
+              <ul>  
+                    <li><a href="cristoredentor.html">Cristo Redentor, Brasil</a><li>
+                    <li><a href="macchupicchu.html">Machu Picchu, Peru</a><li>
+                    <li><a href="chichenitza.html">Chichén Itzá, México</a><li></li>
+                    <li><a href="coliseu.html">Coliseu, Itália</a><li></li>
+                    <li><a href="ruinasdepetra.html">Ruínas de Petra, Jordânia</a><li></li>
+                    <li><a href="tajmahal.html">Taj Mahal, Índia</a><li></li>
+                    <li><a href="grandemuralha.html">Grande Muralha da China</a><li></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+            <h4>7 Maravilhas do mundo antigo</h4>
+              <ul>  
+                    <li><a href="piramide.html">Grande Pirâmide de Gizé</a><li>
+                    <li><a href="mausoleu.html">Mausoléu de Halicarnasso</a><li>
+                    <li><a href="estatuadezeus.html">Estátua de Zeus</a><li>
+                    <li><a href="jardins.html">Jardins da Babilônia</a><li>
+                    <li><a href="farol.html">Farol de Alexandria</a><li>
+                    <li><a href="$">Templo de Ártemis</a><li></li>
+                    <li><a href="colossoderodes.html">Colosso de Rodes</a><li></li>
+
+                    <div class="rodape"> 
+                      <p id="ufakk">Desenvolvido por Diogo, Pedro e Uriel.<br>
+                        Todos os direitos reservados &copy; 2022.</p>  
+                    </div> 
+
+              </ul>
+          </div>
+        <div class="footer-col">
+            <h4>Outros</h4>
+              <ul class="outros">  
+                    <li><a href="acessibilidade.html">Acessibilidade</a><li>
+                    <li><a href="$">A+</a><li>
+                    <li><a href="$">A-</a><li>
+                    <li><a href="$">Contraste</a><li>
+                      <div id="acessibilidade">    
+                        <ul id="atalhos">
+                          <li><a href="#grad" accesskey="1" title="Ir para o conteudo">Ir para o conteúdo [1]</a></li>
+                          <li><a href="#grad" accesskey="2" title="Ir para menu de navegação">Ir para menu [2]</a></li>
+                          <li><a href="#ufakk" accesskey="3" title="Ir para rodape">Ir para rodapé [3]</a></li>
+                             
+                            <div class="rodapemob Cor"> 
+                              <p id="ufakk">Desenvolvido por Diogo, Pedro e Uriel.<br>
+                                Todos os direitos reservados &copy; 2022.</p>  
+                            </div> 
+                             
+                        </ul>
+              </ul>
+          </div>       
+      </div>
+    </div>
+  </footer>
+</div>
+
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+</body>
+</html>

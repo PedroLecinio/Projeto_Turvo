@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR" dir="ltr">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Viagens, Maravilhas do mundo">
+      <meta name="keywords" content="Viagens, Maravilhas do mundo, Coliseu">
+      <meta name="author" content="Pedro, Uriel e Diogo">
+      <link rel="stylesheet" href="CSS/style.css">  
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">   
+      <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="imagem/logo 2.png" type="image/x-icon">
+    <title>Mausoléu de Halicarnasso</title>
+
+  </head>
+<body id="grad">
+
+<header>
+  <nav class="sidebar close">
+    <div class="iocn-link">
+      <div class="logo-details">
+        <i class='bx bxs-plane-alt'></i>
+        <span class="logo_name"></span>
+      </div>
+  </div>
+    <ul class="nav-links">
+      <li>
+        <div class="iocn-link">   
+          <a href="index.html">
+            <i class='bx bxs-home-alt-2' style='color:#ffffff'  ></i>
+            <span class="link_name">Inicio</span>
+          </a>
+      </div>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="index.html">Inicio</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-world' ></i>
+            <span class="link_name">Maravilhas do mundo moderno</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">7 Maravilhas do mundo moderno</a></li>
+          <li><a href="cristoredentor.html">Cristo Redentor</a></li>
+          <li><a href="macchupicchu.html">Machu Picchu</a></li>
+          <li><a href="chichenitza.html">Chichén Itzá</a></li>
+          <li><a href="coliseu.html">Coliseu</a></li>
+          <li><a href="ruinasdepetra.html">Ruínas De Petra</a></li>
+          <li><a href="tajmahal.html">Taj Mahal</a></li>
+          <li><a href="grandemuralha.html">Grande Muralha</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bxs-bank' style='color:#ffffff'  ></i>
+            <span class="link_name">Maravilhas do mundo antigo</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">7 Maravilhas do mundo antigo</a></li>
+          <li><a href="piramide.html">Grandes Pirâmides</a></li>
+          <li><a href="mausoleu.html">Mausoléu</a></li>
+          <li><a href="estatuadezeus.html">Estátua De Zeus</a></li>
+          <li><a href="jardins.html">Jardins Da Babilônia</a></li>
+          <li><a href="farol.html">Farol De Alexandria</a></li>
+          <li><a href="artemis.html">Templo De Ártemis</a></li>
+          <li><a href="colossoderodes.html">Colosso De Rodes</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+        <a href="contato.html">
+          <i class='bx bx-envelope'></i>
+          <span class="link_name">Contato</span>
+        </a>
+      </div>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="contato.html">Contato</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu' ></i>
+      <span class="text">Turquia</span> 
+      <a href="index.html"><img id="icotopo" src="imagem/IMG_1534.ico"></a>
+    </div>
+
+    <script>
+      let arrow = document.querySelectorAll(".arrow");
+      for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e)=>{
+       let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+       arrowParent.classList.toggle("showMenu");
+        });
+      }
+      let sidebar = document.querySelector(".sidebar");
+      let sidebarBtn = document.querySelector(".bx-menu");
+      console.log(sidebarBtn);
+      sidebarBtn.addEventListener("click", ()=>{
+        sidebar.classList.toggle("close");
+      });
+      </script>
+      
+  </header>
+
+<main> 
+  
+  <ul class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+    <li class="breadcrumb-item2"><a href="#">/</a></li>
+    <li class="breadcrumb-item"><a href="#">Mundo antigo</a></li>
+    <li class="breadcrumb-item2"><a href="#">/</a></li>
+    <li class="breadcrumb-item"><a href="mausoleu.html">Mausoléu</a></li>
+  </ul>
+
+  <div class="blocoum">
+    <div class="Fundo w3-center Cor">
+        <h1 class="localizacao">Mausoléu de Halicarnasso</h1>
+        <h4 class="localizacao2">Bodrum</h4>
+    </div>
+  
+    <div class="w3-row-padding blocoitens" style="max-width:1400px">
+        <div class="">
+            <img class=" imagempaginas" src="imagem/mausoleudois.png" alt="Imagem 3D ilustrativa de como seria o Mausoléu em sua total forma." style="width:70%">
+            <h2 class="paragrafopaises">História</h2>
+            <div class="justificado"><br>
+                <p class="paragrafopaises2">Halicarnasso era a capital de uma satrapia na costa da Anatólia. Naquele ano o monarca, Hecatômno de Milasa, morreu deixando seus domínios a seu filho, Mausolo. Hecatômno, um sátrapa local dos persas, tomou o controle de várias das cidades e distritos vizinhos. Após ter Mausolo e Artemísia, teve vários outros filhos e filhas: Ada (mãe adotada de Alexandre), Idrieu e Pixodaro. Mausolo estendeu seu território até a costa sudoeste da Anatólia, e com Artemísia era costume na Cária sátrapas desposarem suas irmãs, preservando o poder e riqueza da família governou o território ao redor de Halicarnasso por 24 anos. Mausolo, embora descendendo do povo local, falava grego e admirava a maneira grega de vida e governo: fundou muitas cidades de projeto grego junto à costa e encorajou tradições democráticas gregas.</p><br>
+                <p class="paragrafopaises2"></p>
+            </div>
+        </div>
+    
+        
+        <div class="">
+          <img class="imagempaginas" src="imagem/masolas.jpg" alt="Fotografia dos atuais destroços do antigo Mausoléu." style="width:70%">
+          <h2 class="paragrafopaises">Curiosidades</h2>
+          <div class="justificado">
+            <p class="paragrafopaises2">O Mausoléu de Halicarnasso foi uma gigantesca construção feita para abrigar o túmulo do rei Mausolo, na Turquia. É também uma das sete maravilhas do mundo antigo.
+                            </p><br>  
+            <p class="paragrafopaises2"></p>
+          </div>
+        </div><br><br>
+      </div>
+    </div>
+</main>
+
+
+  <footer class="footer">
+    <div class="container2">
+      <div class="row">
+        <div class="footer-col">
+            <h4>7 Maravilhas do mundo moderno</h4>
+            <ul>  
+                <li><a href="cristoredentor.html">Cristo Redentor, Brasil</a><li>
+                <li><a href="macchupicchu.html">Machu Picchu, Peru</a><li>
+                <li><a href="chichenitza.html">Chichén Itzá, México</a><li></li>
+                <li><a href="coliseu.html">Coliseu, Itália</a><li></li>
+                <li><a href="ruinasdepetra.html">Ruínas de Petra, Jordânia</a><li></li>
+                <li><a href="tajmahal.html">Taj Mahal, Índia</a><li></li>
+                <li><a href="grandemuralha.html">Grande Muralha da China</a><li></li>
+      </ul>
+        </div>
+        <div class="footer-col">
+            <h4>7 Maravilhas do mundo antigo</h4>
+              <ul>  
+                    <li><a href="grandemuralha.html">Grandes Pirâmides de Gizé</a><li>
+                    <li><a href="mausoleu.html">Mausoléu de Halicarnasso</a><li>
+                    <li><a href="estatuadezeus.html">Estátua de Zeus</a><li>
+                    <li><a href="jardins.html">Jardins da Babilônia</a><li>
+                    <li><a href="farol.html">Farol de Alexandria</a><li>
+                    <li><a href="artemis.html">Templo de Ártemis</a><li></li>
+                    <li><a href="colossoderodes.html">Colosso de Rodes</a><li></li>
+
+                    <div class="rodape"> 
+                      <p id="ufakk">Desenvolvido por Diogo, Pedro e Uriel.<br>
+                        Todos os direitos reservados &copy; 2022.</p>  
+                    </div> 
+
+              </ul>
+          </div>
+        <div class="footer-col">
+            <h4>Outros</h4>
+              <ul class="outros">  
+                    <li><a href="acessibilidade.html">Acessibilidade</a><li>
+                    <li><a href="$">A+</a><li>
+                    <li><a href="$">A-</a><li>
+                    <li><a href="$">Contraste</a><li>
+                      <div id="acessibilidade">    
+                        <ul id="atalhos">
+                          <li><a href="#grad" accesskey="1" title="Ir para o conteudo">Ir para o conteúdo [1]</a></li>
+                          <li><a href="#grad" accesskey="2" title="Ir para menu de navegação">Ir para menu [2]</a></li>
+                          <li><a href="#ufakk" accesskey="3" title="Ir para rodap[e">Ir para rodapé [3]</a></li>
+                             
+                            <div class="rodapemob Cor"> 
+                              <p id="ufakk">Desenvolvido por Diogo, Pedro e Uriel.<br>
+                                Todos os direitos reservados &copy; 2022.</p>  
+                            </div> 
+                             
+                        </ul>
+              </ul>
+          </div>       
+      </div>
+    </div>
+
+  </footer>
+</div>
+
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+</body>
+</html>
